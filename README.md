@@ -1,5 +1,6 @@
-# Python scripts for the master thesis of Timo Vogel (384501)
-Topic: Assimilating mean flow data around an airfoil using Physics-informed Neural Networks
+#  Assimilating mean flow data around an airfoil using Physics-informed Neural Networks
+This repository contains the Python scripts used for the master thesis of Timo Vogel of TU Berlin
+
 ## Abstract
 The characterization of the turbulent flow around objects faces several challenges. Commonly used experimental or numerical techniques compromise on either accuracy or resolution. A recently proposed assimilation method, called physics-informed neural networks, integrates governing equations describing the flow into the training process of a deep neural network. The residuals of the model are added to the loss function defined for the network training. The network is thus optimized to predict the observed data and to obey the implemented equations. The result, unlike from numerical methods, is a continuous and therefore mesh-free prediction of the flow. 
 
@@ -7,3 +8,5 @@ In this work, a physics-informed neural network approach is used to assimilate t
 Several sub-steps are taken towards this assimilation task to incrementally increase the complexity. In the beginning, dense numerical data from the RANS simulation is used and the assimilation domain is restricted to the airfoil wake. The sparsity of the numerical data is increased to match the experimental data locations. In the last step, the experimental data is used for the assimilation. This progression is repeated on a domain, which includes the airfoil.
  
 The assimilated flow field shows an accurate prediction of the flow in large parts of the domain. The PINN is most accurate in the wake, where small velocity gradients are present. In the boundary layer and trailing edge regions, where the flow exhibits larger velocity gradients, small assimilation errors occur. This is most evident in the eddy viscosity, the model variable of the turbulence model. These deviations from the expected results are found to be related to the inaccurate prediction of the first and second-order derivatives of the velocity. Improving the prediction of these derivatives should be part of future research to further increase the accuracy of the assimilation outcomes.
+
+##Files
