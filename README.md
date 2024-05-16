@@ -1,5 +1,5 @@
 #  Assimilating mean flow data around an airfoil using Physics-informed Neural Networks
-This repository contains the Python scripts used for the master thesis of Timo Vogel of TU Berlin. The thesis objective is to assimilate the flow field around a NACA-0012 airfoil from the experimental dataset shown in the figure [MIT](https://choosealicense.com/licenses/mit/).
+This repository contains the Python scripts used for the master thesis of Timo Vogel of TU Berlin. The thesis objective is to assimilate the flow field around a NACA-0012 airfoil from the experimental dataset shown in this figure [FIG](https://github.com/timovogel/PINN_NACA0012/blob/main/EXP.pdf).
 
 
 ## Abstract
