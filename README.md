@@ -1,5 +1,6 @@
 #  Assimilating mean flow data around an airfoil using Physics-informed Neural Networks
-This repository contains the Python scripts used for the master thesis of Timo Vogel of TU Berlin
+This repository contains the Python scripts used for the master thesis of Timo Vogel of TU Berlin. The thesis objective is to assimilate the flow field around a NACA-0012 airfoil from the experimental dataset shown in the figure [MIT](https://choosealicense.com/licenses/mit/).
+
 
 ## Abstract
 The characterization of the turbulent flow around objects faces several challenges. Commonly used experimental or numerical techniques compromise on either accuracy or resolution. A recently proposed assimilation method, called physics-informed neural networks, integrates governing equations describing the flow into the training process of a deep neural network. The residuals of the model are added to the loss function defined for the network training. The network is thus optimized to predict the observed data and to obey the implemented equations. The result, unlike from numerical methods, is a continuous and therefore mesh-free prediction of the flow. 
