@@ -10,4 +10,7 @@ Several sub-steps are taken towards this assimilation task to incrementally incr
  
 The assimilated flow field shows an accurate prediction of the flow in large parts of the domain. The PINN is most accurate in the wake, where small velocity gradients are present. In the boundary layer and trailing edge regions, where the flow exhibits larger velocity gradients, small assimilation errors occur. This is most evident in the eddy viscosity, the model variable of the turbulence model. These deviations from the expected results are found to be related to the inaccurate prediction of the first and second-order derivatives of the velocity. Improving the prediction of these derivatives should be part of future research to further increase the accuracy of the assimilation outcomes.
 
-##Files
+## Files
+[MA_TV_ModelAB.py](https://github.com/timovogel/PINN_NACA0012/blob/main/MA_TV_ModelAB.py) contains the script for using dense and sparse numerical data for the network training. Within the script, the domain can be chosen between the entire considered domain or only the wake. 
+
+[MA_TV_ModelC.py](https://github.com/timovogel/PINN_NACA0012/blob/main/MA_TV_ModelC.py) contains the script for using sparse numerical data for the network training. Within the script, the domain can be chosen between the entire considered domain or only the wake. 
