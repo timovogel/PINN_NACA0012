@@ -14,3 +14,6 @@ The assimilated flow field shows an accurate prediction of the flow in large par
 [MA_TV_ModelAB.py](https://github.com/timovogel/PINN_NACA0012/blob/main/MA_TV_ModelAB.py) contains the script for using dense and sparse numerical data for the network training. Within the script, the domain can be chosen between the entire considered domain or only the wake. 
 
 [MA_TV_ModelC.py](https://github.com/timovogel/PINN_NACA0012/blob/main/MA_TV_ModelC.py) contains the script for using sparse numerical data for the network training. Within the script, the domain can be chosen between the entire considered domain or only the wake. 
+
+## Licence
+[GNU GENERAL PUBLIC LICENSE](https://github.com/timovogel/PINN_NACA0012/blob/main/LICENCE)
